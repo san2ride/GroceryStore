@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>285402146200-k2f0rm3oj2io4sthec4t3hhb0s2lq3lr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.285402146200-k2f0rm3oj2io4sthec4t3hhb0s2lq3lr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBWcHesD9qhaIoSS93OZmKMbsHun7YRBy8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>285402146200</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.trvl.grocerystorefire</string>
+	<key>PROJECT_ID</key>
+	<string>todolist-b6ee3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>todolist-b6ee3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:285402146200:ios:9ba79572afd6ee84b677ed</string>
+	<key>DATABASE_URL</key>
+	<string>https://todolist-b6ee3.firebaseio.com</string>
+</dict>
+</plist>
