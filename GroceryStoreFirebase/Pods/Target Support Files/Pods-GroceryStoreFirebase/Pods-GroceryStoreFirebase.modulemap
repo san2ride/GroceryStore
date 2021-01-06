@@ -1,0 +1,6 @@
+framework module Pods_GroceryStoreFirebase {
+  umbrella header "Pods-GroceryStoreFirebase-umbrella.h"
+
+  export *
+  module * { export * }
+}
