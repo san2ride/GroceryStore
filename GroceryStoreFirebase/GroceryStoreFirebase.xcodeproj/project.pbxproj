@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		53D41D8DC2DE2309BA599877 /* Pods_GroceryStoreFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DD2D700285291F748DBE17 /* Pods_GroceryStoreFirebase.framework */; };
+		F7B1341025A7A78400CBCF90 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B1340F25A7A78400CBCF90 /* Constants.swift */; };
+		F7B1341325A7A87900CBCF90 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B1341225A7A87900CBCF90 /* View+Extensions.swift */; };
 		F7C2AEC925A58751008FE850 /* GroceryStoreFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2AEC825A58751008FE850 /* GroceryStoreFirebaseApp.swift */; };
 		F7C2AECB25A58751008FE850 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2AECA25A58751008FE850 /* ContentView.swift */; };
 		F7C2AECD25A58752008FE850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C2AECC25A58752008FE850 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 		57AC34F81B16F465D6EC8695 /* Pods-GroceryStoreFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryStoreFirebase.release.xcconfig"; path = "Target Support Files/Pods-GroceryStoreFirebase/Pods-GroceryStoreFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		60DD2D700285291F748DBE17 /* Pods_GroceryStoreFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryStoreFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2786891CBD0625499853C4A /* Pods-GroceryStoreFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryStoreFirebase.debug.xcconfig"; path = "Target Support Files/Pods-GroceryStoreFirebase/Pods-GroceryStoreFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		F7B1340F25A7A78400CBCF90 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F7B1341225A7A87900CBCF90 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		F7C2AEC525A58751008FE850 /* GroceryStoreFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryStoreFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C2AEC825A58751008FE850 /* GroceryStoreFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryStoreFirebaseApp.swift; sourceTree = "<group>"; };
 		F7C2AECA25A58751008FE850 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 		F7C2AED825A58771008FE850 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				F7B1340F25A7A78400CBCF90 /* Constants.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 		F7C2AEDC25A587A8008FE850 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F7B1341225A7A87900CBCF90 /* View+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -141,7 +147,6 @@
 				A2786891CBD0625499853C4A /* Pods-GroceryStoreFirebase.debug.xcconfig */,
 				57AC34F81B16F465D6EC8695 /* Pods-GroceryStoreFirebase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -261,6 +266,8 @@
 			files = (
 				F7C2AECB25A58751008FE850 /* ContentView.swift in Sources */,
 				F7C2AEC925A58751008FE850 /* GroceryStoreFirebaseApp.swift in Sources */,
+				F7B1341325A7A87900CBCF90 /* View+Extensions.swift in Sources */,
+				F7B1341025A7A78400CBCF90 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
