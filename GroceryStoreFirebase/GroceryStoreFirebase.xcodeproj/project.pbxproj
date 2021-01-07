@@ -17,6 +17,7 @@
 		F7C2AECD25A58752008FE850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C2AECC25A58752008FE850 /* Assets.xcassets */; };
 		F7C2AED025A58752008FE850 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C2AECF25A58752008FE850 /* Preview Assets.xcassets */; };
 		F7C2AEE025A58900008FE850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7C2AEDF25A58900008FE850 /* GoogleService-Info.plist */; };
+		F7CE362625A7BD5400E91C26 /* AddStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CE362525A7BD5400E91C26 /* AddStoreViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F7C2AECF25A58752008FE850 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7C2AED125A58752008FE850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7C2AEDF25A58900008FE850 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F7CE362525A7BD5400E91C26 /* AddStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStoreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		F7C2AEDB25A5879D008FE850 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				F7CE362525A7BD5400E91C26 /* AddStoreViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				F7B1342B25A7B25A00CBCF90 /* Store.swift in Sources */,
 				F7B1342E25A7B2A800CBCF90 /* FirestoreManager.swift in Sources */,
+				F7CE362625A7BD5400E91C26 /* AddStoreViewModel.swift in Sources */,
 				F7C2AECB25A58751008FE850 /* ContentView.swift in Sources */,
 				F7C2AEC925A58751008FE850 /* GroceryStoreFirebaseApp.swift in Sources */,
 				F7B1341325A7A87900CBCF90 /* View+Extensions.swift in Sources */,
