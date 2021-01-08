@@ -10,13 +10,23 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var isPresented: Bool = false
+    @ObservedObject private var storeListVM = StoreListViewModel()
     
     var body: some View {
         VStack {
-            Text("Hello, world!")
+            List(storeListVM.stores, id: \.storeId) { store in
+                VStack(alignment: .leading, spacing: 8) {
+                    Text(store.name)
+                        .font(.headline)
+                    Text(store.address)
+                        .font(.body)
+                }
+            }.listStyle(PlainListStyle())
         }
         
-        .sheet(isPresented: $isPresented, content: {
+        .sheet(isPresented: $isPresented, onDismiss: {
+            storeListVM.getAll()
+        }, content: {
             AddStoreView()
         })
         .navigationBarItems(trailing: Button(action: {
@@ -26,6 +36,10 @@ struct ContentView: View {
         }))
         .navigationTitle("Grocery Store")
         .embedInNavigationView()
+        
+        .onAppear(perform: {
+            storeListVM.getAll()
+        })
     }
 }
 
