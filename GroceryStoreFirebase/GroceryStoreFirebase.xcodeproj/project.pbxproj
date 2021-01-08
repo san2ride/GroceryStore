@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		53D41D8DC2DE2309BA599877 /* Pods_GroceryStoreFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DD2D700285291F748DBE17 /* Pods_GroceryStoreFirebase.framework */; };
+		F70875B725A919EC0027E90F /* StoreListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70875B625A919EC0027E90F /* StoreListViewModel.swift */; };
 		F7B1341025A7A78400CBCF90 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B1340F25A7A78400CBCF90 /* Constants.swift */; };
 		F7B1341325A7A87900CBCF90 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B1341225A7A87900CBCF90 /* View+Extensions.swift */; };
 		F7B1342B25A7B25A00CBCF90 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B1342A25A7B25A00CBCF90 /* Store.swift */; };
@@ -25,6 +26,7 @@
 		57AC34F81B16F465D6EC8695 /* Pods-GroceryStoreFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryStoreFirebase.release.xcconfig"; path = "Target Support Files/Pods-GroceryStoreFirebase/Pods-GroceryStoreFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		60DD2D700285291F748DBE17 /* Pods_GroceryStoreFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryStoreFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2786891CBD0625499853C4A /* Pods-GroceryStoreFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryStoreFirebase.debug.xcconfig"; path = "Target Support Files/Pods-GroceryStoreFirebase/Pods-GroceryStoreFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		F70875B625A919EC0027E90F /* StoreListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListViewModel.swift; sourceTree = "<group>"; };
 		F7B1340F25A7A78400CBCF90 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F7B1341225A7A87900CBCF90 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		F7B1342A25A7B25A00CBCF90 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				F7CE362525A7BD5400E91C26 /* AddStoreViewModel.swift */,
+				F70875B625A919EC0027E90F /* StoreListViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F70875B725A919EC0027E90F /* StoreListViewModel.swift in Sources */,
 				F7B1342B25A7B25A00CBCF90 /* Store.swift in Sources */,
 				F7B1342E25A7B2A800CBCF90 /* FirestoreManager.swift in Sources */,
 				F7CE362625A7BD5400E91C26 /* AddStoreViewModel.swift in Sources */,
