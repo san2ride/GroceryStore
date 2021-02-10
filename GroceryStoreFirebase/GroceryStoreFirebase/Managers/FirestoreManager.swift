@@ -17,6 +17,35 @@ class FirestoreManager {
         db = Firestore.firestore()
     }
     
+    func updateStore(storeId: String, values: [AnyHashable: Any], completion: @escaping (Result<Store?, Error>) -> Void) {
+        
+        let ref = db.collection("stores").document(storeId)
+        
+        ref.updateData(
+        [
+            "items": FieldValue.arrayUnion((values["items"] as? [String]) ?? [])
+        ]
+        ) { error in
+            if let error = error {
+                completion(.failure(error))
+            } else {
+                ref.getDocument { (snapshot, error) in
+                    if let error = error {
+                        completion(.failure(error))
+                    } else {
+                        if let snapshot = snapshot {
+                            var store: Store? = try? snapshot.data(as: Store.self)
+                            if store != nil {
+                                store!.id = snapshot.documentID
+                                completion(.success(store))
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
     func getAllStores(completion: @escaping (Result<[Store]?, Error>) -> Void) {
         
         db.collection("stores")
